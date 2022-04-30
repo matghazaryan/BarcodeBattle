@@ -13,8 +13,11 @@ To build barcode battle used the followings.
 * CodeScanner https://github.com/twostraws/CodeScanner
 * LoadingButton https://github.com/Changemin/LoadingButton
 
-Here is the youtube video example
+
+## Here is the youtube video example
 https://youtu.be/NGgwlEftogU
+
+
 
 
 The game contains very simple logic. No Additional architecture was applied for this project.
