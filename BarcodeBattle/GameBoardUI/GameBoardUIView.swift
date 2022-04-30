@@ -90,7 +90,7 @@ struct GameBoardUIView: View {
             
             VStack {
                 
-                Button("Scan barcode", action: {
+                Button("Scan QR code", action: {
                     applyLogicAfterPressingScanBarcode()
                 }).buttonStyle(BaseButtonStyle()).opacity(isScanBarcodeHidden ? 0.0: 1.0)
                 
