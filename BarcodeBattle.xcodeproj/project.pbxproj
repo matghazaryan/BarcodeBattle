@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91B4AE72281A43990050A4B5 /* BarcodeBattleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B4AE71281A43990050A4B5 /* BarcodeBattleApp.swift */; };
+		91B4AE74281A43990050A4B5 /* NameUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B4AE73281A43990050A4B5 /* NameUIView.swift */; };
+		91B4AE76281A439B0050A4B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91B4AE75281A439B0050A4B5 /* Assets.xcassets */; };
+		91B4AE79281A439B0050A4B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91B4AE78281A439B0050A4B5 /* Preview Assets.xcassets */; };
+		91B4AE81281A446F0050A4B5 /* TextFieldContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B4AE80281A446F0050A4B5 /* TextFieldContainer.swift */; };
+		91B4AE87281A46AC0050A4B5 /* GameBoardUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B4AE86281A46AC0050A4B5 /* GameBoardUIView.swift */; };
+		91B4AE8E281AF76F0050A4B5 /* BaseButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B4AE8D281AF76F0050A4B5 /* BaseButtonStyle.swift */; };
+		91B4AE96281B1B3D0050A4B5 /* SecondaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B4AE95281B1B3D0050A4B5 /* SecondaryButtonStyle.swift */; };
+		91B4AE99281B20A80050A4B5 /* LoadingButton in Frameworks */ = {isa = PBXBuildFile; productRef = 91B4AE98281B20A80050A4B5 /* LoadingButton */; };
+		91B4AEAE281BC1B80050A4B5 /* GameBoardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B4AEAD281BC1B80050A4B5 /* GameBoardViewModel.swift */; };
+		91B4AEB7281D75A00050A4B5 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 91B4AEB6281D75A00050A4B5 /* CodeScanner */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		91B4AE6E281A43990050A4B5 /* BarcodeBattle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarcodeBattle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91B4AE71281A43990050A4B5 /* BarcodeBattleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeBattleApp.swift; sourceTree = "<group>"; };
+		91B4AE73281A43990050A4B5 /* NameUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameUIView.swift; sourceTree = "<group>"; };
+		91B4AE75281A439B0050A4B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91B4AE78281A439B0050A4B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		91B4AE80281A446F0050A4B5 /* TextFieldContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldContainer.swift; sourceTree = "<group>"; };
+		91B4AE86281A46AC0050A4B5 /* GameBoardUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoardUIView.swift; sourceTree = "<group>"; };
+		91B4AE8D281AF76F0050A4B5 /* BaseButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButtonStyle.swift; sourceTree = "<group>"; };
+		91B4AE95281B1B3D0050A4B5 /* SecondaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButtonStyle.swift; sourceTree = "<group>"; };
+		91B4AEAD281BC1B80050A4B5 /* GameBoardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoardViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91B4AE6B281A43990050A4B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B4AE99281B20A80050A4B5 /* LoadingButton in Frameworks */,
+				91B4AEB7281D75A00050A4B5 /* CodeScanner in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91B4AE65281A43990050A4B5 = {
+			isa = PBXGroup;
+			children = (
+				91B4AE70281A43990050A4B5 /* BarcodeBattle */,
+				91B4AE6F281A43990050A4B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91B4AE6F281A43990050A4B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91B4AE6E281A43990050A4B5 /* BarcodeBattle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91B4AE70281A43990050A4B5 /* BarcodeBattle */ = {
+			isa = PBXGroup;
+			children = (
+				91B4AE85281A46880050A4B5 /* GameBoardUI */,
+				91B4AE84281A460A0050A4B5 /* NameUI */,
+				91B4AE7F281A44480050A4B5 /* designSystems */,
+				91B4AE71281A43990050A4B5 /* BarcodeBattleApp.swift */,
+				91B4AE75281A439B0050A4B5 /* Assets.xcassets */,
+				91B4AE77281A439B0050A4B5 /* Preview Content */,
+			);
+			path = BarcodeBattle;
+			sourceTree = "<group>";
+		};
+		91B4AE77281A439B0050A4B5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				91B4AE78281A439B0050A4B5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		91B4AE7F281A44480050A4B5 /* designSystems */ = {
+			isa = PBXGroup;
+			children = (
+				91B4AE80281A446F0050A4B5 /* TextFieldContainer.swift */,
+				91B4AE8D281AF76F0050A4B5 /* BaseButtonStyle.swift */,
+				91B4AE95281B1B3D0050A4B5 /* SecondaryButtonStyle.swift */,
+			);
+			path = designSystems;
+			sourceTree = "<group>";
+		};
+		91B4AE84281A460A0050A4B5 /* NameUI */ = {
+			isa = PBXGroup;
+			children = (
+				91B4AE73281A43990050A4B5 /* NameUIView.swift */,
+			);
+			path = NameUI;
+			sourceTree = "<group>";
+		};
+		91B4AE85281A46880050A4B5 /* GameBoardUI */ = {
+			isa = PBXGroup;
+			children = (
+				91B4AE86281A46AC0050A4B5 /* GameBoardUIView.swift */,
+				91B4AEAD281BC1B80050A4B5 /* GameBoardViewModel.swift */,
+			);
+			path = GameBoardUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91B4AE6D281A43990050A4B5 /* BarcodeBattle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91B4AE7C281A439B0050A4B5 /* Build configuration list for PBXNativeTarget "BarcodeBattle" */;
+			buildPhases = (
+				91B4AE6A281A43990050A4B5 /* Sources */,
+				91B4AE6B281A43990050A4B5 /* Frameworks */,
+				91B4AE6C281A43990050A4B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarcodeBattle;
+			packageProductDependencies = (
+				91B4AE98281B20A80050A4B5 /* LoadingButton */,
+				91B4AEB6281D75A00050A4B5 /* CodeScanner */,
+			);
+			productName = BarcodeBattle;
+			productReference = 91B4AE6E281A43990050A4B5 /* BarcodeBattle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91B4AE66281A43990050A4B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					91B4AE6D281A43990050A4B5 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 91B4AE69281A43990050A4B5 /* Build configuration list for PBXProject "BarcodeBattle" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91B4AE65281A43990050A4B5;
+			packageReferences = (
+				91B4AE97281B20A80050A4B5 /* XCRemoteSwiftPackageReference "LoadingButton" */,
+				91B4AEB5281D75A00050A4B5 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
+			productRefGroup = 91B4AE6F281A43990050A4B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91B4AE6D281A43990050A4B5 /* BarcodeBattle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91B4AE6C281A43990050A4B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B4AE79281A439B0050A4B5 /* Preview Assets.xcassets in Resources */,
+				91B4AE76281A439B0050A4B5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91B4AE6A281A43990050A4B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B4AEAE281BC1B80050A4B5 /* GameBoardViewModel.swift in Sources */,
+				91B4AE74281A43990050A4B5 /* NameUIView.swift in Sources */,
+				91B4AE81281A446F0050A4B5 /* TextFieldContainer.swift in Sources */,
+				91B4AE8E281AF76F0050A4B5 /* BaseButtonStyle.swift in Sources */,
+				91B4AE87281A46AC0050A4B5 /* GameBoardUIView.swift in Sources */,
+				91B4AE96281B1B3D0050A4B5 /* SecondaryButtonStyle.swift in Sources */,
+				91B4AE72281A43990050A4B5 /* BarcodeBattleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		91B4AE7A281A439B0050A4B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91B4AE7B281A439B0050A4B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91B4AE7D281A439B0050A4B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BarcodeBattle/Preview Content\"";
+				DEVELOPMENT_TEAM = PYFZEY2H5U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs access to the camera, to be able to read barcodes.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.barcodebattle.BarcodeBattle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91B4AE7E281A439B0050A4B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BarcodeBattle/Preview Content\"";
+				DEVELOPMENT_TEAM = PYFZEY2H5U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs access to the camera, to be able to read barcodes.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.barcodebattle.BarcodeBattle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91B4AE69281A43990050A4B5 /* Build configuration list for PBXProject "BarcodeBattle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91B4AE7A281A439B0050A4B5 /* Debug */,
+				91B4AE7B281A439B0050A4B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91B4AE7C281A439B0050A4B5 /* Build configuration list for PBXNativeTarget "BarcodeBattle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91B4AE7D281A439B0050A4B5 /* Debug */,
+				91B4AE7E281A439B0050A4B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		91B4AE97281B20A80050A4B5 /* XCRemoteSwiftPackageReference "LoadingButton" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Changemin/LoadingButton";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		91B4AEB5281D75A00050A4B5 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		91B4AE98281B20A80050A4B5 /* LoadingButton */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 91B4AE97281B20A80050A4B5 /* XCRemoteSwiftPackageReference "LoadingButton" */;
+			productName = LoadingButton;
+		};
+		91B4AEB6281D75A00050A4B5 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 91B4AEB5281D75A00050A4B5 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 91B4AE66281A43990050A4B5 /* Project object */;
+}
