@@ -32,7 +32,7 @@ Here are the rules on how to test.
 13. Keep playing until one of the player's life will reach 0.
 14. If one of the player's life is 0. The game is over.
 
-##Game rules
+## Game rules
 * The winner should take all 3 life first. 
 * There is no way to gain life if only 1 life left
 * After scanning the QR code 3 random numbers will generate.
